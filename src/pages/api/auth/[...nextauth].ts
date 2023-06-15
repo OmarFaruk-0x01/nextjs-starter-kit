@@ -15,7 +15,7 @@ export default NextAuth({
           placeholder: 'password',
         },
       },
-      async authorize(credentials) {
+      async authorize() {
         const user = {
           id: '1',
           username: 'Omar',

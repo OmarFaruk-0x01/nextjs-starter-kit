@@ -43,7 +43,7 @@ const LoginPage = () => {
       </Group>
 
       <p className="mt-10 text-center text-sm text-gray-500">
-        Don't have any account?{' '}
+        Don{'&apos'}t have any account?{`&apos`}
         <Anchor component={Link} href={'/auth/register'}>
           Register Now!
         </Anchor>
