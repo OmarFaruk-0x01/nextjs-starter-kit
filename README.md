@@ -25,7 +25,7 @@
 
 - Create Env File
 
-  ` cp example.env .env`
+  `cp example.env .env`
 
 - Start Dev Server
 
@@ -33,7 +33,7 @@
 
 ## Add New Git Hooks
 
-` npx husky add <hook> [CMD]`
+`npx husky add <hook> [CMD]`
 
 ## Follow Commit Convention
 
@@ -49,4 +49,4 @@
 
 ### Example
 
-` git commit -m "fix: some bug"`
+`git commit -m "fix: some bug"`
