@@ -13,8 +13,26 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/components/*": [
+        "./src/components/*"
+      ],
+      "~/features/*": [
+        "./src/libs/features/*"
+      ],
+      "~/helpers/*": [
+        "./src/libs/helpers/*"
+      ],
+      "~/hooks/*": [
+        "./src/libs/hooks/*"
+      ],
+      "~/*": [
+        "./src/*"
+      ]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "commitlint.config.js"],
   "exclude": ["node_modules"]
 }
